@@ -1,0 +1,60 @@
+.problem-list-container {
+    margin: 20px auto;
+    width: 80%; /* Adjust the width as needed */
+    max-width: 800px; /* Add a maximum width */
+    text-align: center;
+}
+
+.problem-list-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.problem-list {
+    /* display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); */
+    gap: 20px;
+
+}
+
+.problem-item {
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    transition: box-shadow 0.3s ease;
+}
+
+.problem-item:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.problem-info {
+    margin-bottom: 10px;
+}
+
+.problem-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.problem-code {
+    font-size: 14px;
+    color: #666;
+}
+
+.problem-link {
+    display: block;
+    text-align: center;
+    padding: 8px 0;
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.problem-link:hover {
+    background-color: #0056b3;
+}
