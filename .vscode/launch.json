@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/nipungoyal/Documents/oj_project/backend/InputCodes",
+      "program": "/Users/nipungoyal/Documents/oj_project/backend/InputCodes/build/Debug/outDebug"
+    }
+  ]
+}
